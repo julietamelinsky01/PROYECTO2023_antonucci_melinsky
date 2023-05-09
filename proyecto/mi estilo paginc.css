@@ -57,7 +57,18 @@ ul,ol{
     position: absolute;
     min-width: 140px;
 }
-
+.makeup2{
+    display: flex;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+}
+.makeup{
+    display: flex;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+}
 
 .elegante{
     display: flex;
