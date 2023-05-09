@@ -1,0 +1,46 @@
+*{
+    background-color: peru;
+    box-sizing: border-box;
+    font-family: Papyrus;
+    font-size: 20px;
+}
+.elegante{
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.casual{
+    display: inline-block;
+    margin: 10px;
+
+}
+h1{
+    font-size: 30px;
+    color: seagreen;
+}
+h2{
+    font-size: 30px;
+    color: seagreen;
+}
+h3{
+    font-size: 30px;
+    color: seagreen;
+}
+.formu{
+    margin:0;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: cornflowerblue;
+    -moz-border-bottom-colors: darkorchid;
+    font-family: "Felix Titling";
+    background-color: lightsalmon;
+    margin-left: 0.5%
+
+}
+.imgee{
+    margin-top: 2%;
+}

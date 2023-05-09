@@ -1,0 +1,102 @@
+.titulo{
+    height: 20vh;
+    text-align: center;
+    font-family: "Palatino Linotype";
+    font-size: 28px;
+    font-size: 45px ;
+    color: lemonchiffon;
+    background-color: cornsilk;"
+}
+.parrafo{
+    height: 5vh;
+    background-color: coral;
+    font-family: "Felix Titling";
+    font-size: 20px;
+    color: lightcyan;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rosybrown;
+    box-sizing: border-box;
+    font-family: Papyrus;
+}
+
+
+#header{
+    margin: 0%;
+    width: fit-content;
+    font-family: "Baskerville Old Face";
+    height: 28vh;
+    background-color: sienna;
+
+}
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: sienna;
+    color: lightcyan;
+    text-decoration: lightsalmon;
+    width: 1000px;
+    padding: 10px 15px;
+    display: block;
+    margin: 0%;
+    font-size: 18px;
+}
+.nav li a:hover{
+    background-color: gray;
+
+}
+.nav>li{
+    float: initial;
+    float: left;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+
+
+.elegante{
+    display: inline-block;
+    margin: 10px;
+
+}
+
+.casual{
+    display: inline-block;
+    margin: 10px;
+
+}
+h1{
+    font-size: 30px;
+    color: seagreen;
+}
+h2{
+    font-size: 30px;
+    color: seagreen;
+}
+h3{
+    font-size: 30px;
+    color: seagreen;
+}
+.formu{
+    margin:0;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: cornflowerblue;
+    -moz-border-bottom-colors: darkorchid;
+    font-family: "Felix Titling";
+    background-color: lightsalmon;
+    margin-left: 0.5%
+    font-size: 40px;
+
+}
+.imgee{
+    margin-top: 2%;
+}
