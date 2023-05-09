@@ -2,13 +2,17 @@
 esta pagina es sobre moda, tendencias actuales y muchos consejos sobre tu estilo personal
 
 ## autores
-. julieta melinsky
-.justina antonucci
+`*`julieta melinsky clave 2227956
+`*`justina antonucci clave 2200474
 
 ### tecnologias usadas
-.html5
-.css3
 
+`+`html5
+`+`css3
+`+` lapiz y papel para el sketch
+`+`editor para el mockup
+`+`github
+`+` google font
 
 - [x] El proyecto debe estar subido al repositorio adecuado "Proyecto2023-ApellidoAlumno1-ApellidoAlumno2"
 - [x] Modificar el Readme.MD y colocar información del proyecto/página (mínimamente: título del proyecto, autores con nombre y apellido, link de gh-pages, contenido de la página,  listado de tecnologías usadas, etc)
