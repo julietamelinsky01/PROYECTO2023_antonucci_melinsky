@@ -20,7 +20,7 @@ esta pagina es sobre moda, tendencias actuales y muchos consejos sobre tu estilo
 - [x ] La página principal debe llamarse index
 - [ x] Identar correctamente el código (en Webstorm Ctrl+Alt+L)
 - [ ] No debe haber errores presentes (realizar *Code* > *Inspect Code* para verificar que no haya errores)
-- [ ] Se debe emplear algún favicon
+- [x ] Se debe emplear algún favicon
 - [ ] Emplear alguna fuente de google fonts o subir al proyecto alguna fuente externa
 - [x ] Debe haber navegación entre todas las páginas
 
