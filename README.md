@@ -19,9 +19,9 @@ esta pagina es sobre moda, tendencias actuales y muchos consejos sobre tu estilo
 ### Sobre el Proyecto General
 - [x ] La página principal debe llamarse index
 - [ x] Identar correctamente el código (en Webstorm Ctrl+Alt+L)
-- [ ] No debe haber errores presentes (realizar *Code* > *Inspect Code* para verificar que no haya errores)
+- [x ] No debe haber errores presentes (realizar *Code* > *Inspect Code* para verificar que no haya errores)
 - [x ] Se debe emplear algún favicon
-- [ ] Emplear alguna fuente de google fonts o subir al proyecto alguna fuente externa
+- [x ] Emplear alguna fuente de google fonts o subir al proyecto alguna fuente externa
 - [x ] Debe haber navegación entre todas las páginas
 
 ### Sobre el HTML
@@ -47,9 +47,9 @@ esta pagina es sobre moda, tendencias actuales y muchos consejos sobre tu estilo
 - [ x] No emplear !important
 
 ### Sobre Accesibilidad:
-- [ ] Toda imagen debe tener su etiqueta alt
-- [ ] Todo ```<input>``` o ```<select>``` debe tener su ```<label>```
-- [ ] Los labels deben contener el atributo **for** (el for debe contener el id del input al cual se referencia) 
+- [ x] Toda imagen debe tener su etiqueta alt
+- [x] Todo ```<input>``` o ```<select>``` debe tener su ```<label>```
+- [x ] Los labels deben contener el atributo **for** (el for debe contener el id del input al cual se referencia) 
 - [x ] Si hay una tabla en la página, debe contener ```<caption></caption>```
 
 ### Sobre las correcciones
