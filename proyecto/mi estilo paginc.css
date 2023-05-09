@@ -1,8 +1,6 @@
 .titulo{
     height: 20vh;
     text-align: center;
-    font-family: "Palatino Linotype";
-    font-size: 28px;
     font-size: 45px ;
     color: lemonchiffon;
     background-color: cornsilk;"
@@ -10,23 +8,22 @@
 .parrafo{
     height: 5vh;
     background-color: darkslategray;
-    font-family: "Felix Titling";
+    font-family: "Felix Titling", serif;
     font-size: 20px;
     color: lightcyan;
 }
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     background-color: rosybrown;
     box-sizing: border-box;
-    font-family: Papyrus;
+
 }
 
 
 #header{
-    margin: 0%;
+    margin: 0;
     width: fit-content;
-    font-family: "Baskerville Old Face";
     height: 28vh;
     background-color: darkslategray;
 
@@ -41,7 +38,7 @@ ul,ol{
     width: 1000px;
     padding: 10px 15px;
     display: block;
-    margin: 0%;
+    margin: 0;
     font-size: 18px;
 }
 .nav li a:hover{
@@ -49,7 +46,6 @@ ul,ol{
 
 }
 .nav>li{
-    float: initial;
     float: left;
 }
 .nav li ul{
@@ -129,9 +125,8 @@ label{
 }
 
 #header{
-    margin: 0%;
+    margin: 0;
     width: fit-content;
-    font-family: "Bookman Old Style";
     height: 28vh;
     background-color: darkslategray;
 
@@ -149,16 +144,15 @@ ul,ol{
     width: 1000px;
     padding: 10px 15px;
     display: block;
-    margin: 0%;
+    margin: 0;
     font-size: 30px;}
 
 .imagen123{
     margin-top: 4%;
 }
 #header{
-    margin: 0%;
+    margin: 0;
     width: fit-content;
-    font-family: "Baskerville Old Face";
     height: 28vh;
     background-color: darkslategray;
 
@@ -176,7 +170,7 @@ ul,ol{
     width: 1000px;
     padding: 10px 15px;
     display: block;
-    margin: 0%;
+    margin: 0;
     font-size: 30px;}
 .imagen123{
     margin-top: 4%;
