@@ -25,7 +25,7 @@ esta pagina es sobre moda, tendencias actuales y muchos consejos sobre tu estilo
 - [x ] Debe haber navegación entre todas las páginas
 
 ### Sobre el HTML
-- [ ] Todas las etiquetas deben estar en minúscula
+- [x ] Todas las etiquetas deben estar en minúscula
 - [ x] Poner comillas a todos los atributos
 - [x ] Title debe contener el título de la página
 - [x ] En el ```<head></head>``` incluir las etiquetas ```<meta>``` detallando: autor, descripcion y palabras clave
@@ -36,7 +36,7 @@ esta pagina es sobre moda, tendencias actuales y muchos consejos sobre tu estilo
 - [ x] Debe contener al menos 3 elementos de tipo ```<input>``` o ```<select>``` ó ```<button>``` que le permitan al usuario ingresar valores para poder realizar un cálculo de un ejercicio.
 - [ ] Debe contener un ```<canvas>```, para que posteriormente (en la 2da etapa) se grafique alguna imagen representativa del ejercicio. (el desarrollo del gráfico se realizará cuando se vea la unidad de “Orientación a Eventos”)
 - [x ] No espaciar con excesivos ```<br>```. Utilizar márgenes, paddings, etc.
-- [ ] No utilizar etiquetas deprecadas.
+- [x ] No utilizar etiquetas deprecadas.
 - [x ] Todas las etiquetas deben estar correctamente cerradas
 - [ x] Los ids de los elementos deben ser unívocos
 

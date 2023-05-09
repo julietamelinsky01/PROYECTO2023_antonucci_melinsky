@@ -1,8 +1,7 @@
 *{
-    background-color: peru;
+    background-color: plum;
     box-sizing: border-box;
     font-family: Papyrus;
-    font-size: 20px;
 }
 .elegante{
     display: inline-block;
@@ -28,19 +27,16 @@ h3{
     color: seagreen;
 }
 .formu{
-    margin:0;
-    justify-content: space-between;
-    justify-content: space-around;
-    justify-content: center;
-    padding: 0;
     box-sizing: border-box;
     box-shadow: cornflowerblue;
     -moz-border-bottom-colors: darkorchid;
     font-family: "Felix Titling";
     background-color: lightsalmon;
-    margin-left: 0.5%
+    margin-left: 0.5%;
+    font-size: 500px;
 
 }
+
 .imgee{
     margin-top: 2%;
 }

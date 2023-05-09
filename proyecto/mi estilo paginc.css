@@ -93,10 +93,64 @@ h3{
     -moz-border-bottom-colors: darkorchid;
     font-family: "Felix Titling";
     background-color: lightsalmon;
-    margin-left: 0.5%
+    margin-left: 0.5%;
     font-size: 40px;
 
 }
 .imgee{
     margin-top: 2%;
+}
+
+#header{
+    margin: 0%;
+    width: fit-content;
+    font-family: "Bookman Old Style";
+    height: 28vh;
+    background-color: sienna;
+
+}
+h1{
+    color: moccasin;
+}
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: sienna;
+    color: lightcyan;
+    text-decoration: lightsalmon;
+    width: 1000px;
+    padding: 10px 15px;
+    display: block;
+    margin: 0%;
+    font-size: 30px;}
+.imagen123{
+    margin-top: 4%;
+}
+#header{
+    margin: 0%;
+    width: fit-content;
+    font-family: "Baskerville Old Face";
+    height: 28vh;
+    background-color: sienna;
+    font-family: 'Felix Titling';
+
+}
+h1{
+    color: dimgray;
+}
+ul,ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: sienna;
+    color: lightcyan;
+    text-decoration: lightsalmon;
+    width: 1000px;
+    padding: 10px 15px;
+    display: block;
+    margin: 0%;
+    font-size: 30px;}
+.imagen123{
+    margin-top: 4%;
 }
