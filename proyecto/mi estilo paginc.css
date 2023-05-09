@@ -9,7 +9,7 @@
 }
 .parrafo{
     height: 5vh;
-    background-color: coral;
+    background-color: darkslategray;
     font-family: "Felix Titling";
     font-size: 20px;
     color: lightcyan;
@@ -28,14 +28,14 @@
     width: fit-content;
     font-family: "Baskerville Old Face";
     height: 28vh;
-    background-color: sienna;
+    background-color: darkslategray;
 
 }
 ul,ol{
     list-style: none;
 }
 .nav li a{
-    background-color: sienna;
+    background-color: darkslategray;
     color: lightcyan;
     text-decoration: lightsalmon;
     width: 1000px;
@@ -60,14 +60,17 @@ ul,ol{
 
 
 .elegante{
-    display: inline-block;
+    display: flex;
     margin: 10px;
-
+    width: 500px;
+    height: 500px;
 }
 
 .casual{
-    display: inline-block;
+    display: flex;
     margin: 10px;
+    width: 500px;
+    height: 500px;
 
 }
 h1{
@@ -119,7 +122,7 @@ label{
     width: fit-content;
     font-family: "Bookman Old Style";
     height: 28vh;
-    background-color: sienna;
+    background-color: darkslategray;
 
 }
 h1{
@@ -129,7 +132,7 @@ ul,ol{
     list-style: none;
 }
 .nav li a{
-    background-color: sienna;
+    background-color: darkslategray;
     color: lightcyan;
     text-decoration: lightsalmon;
     width: 1000px;
@@ -146,7 +149,7 @@ ul,ol{
     width: fit-content;
     font-family: "Baskerville Old Face";
     height: 28vh;
-    background-color: sienna;
+    background-color: darkslategray;
 
 }
 h1{
@@ -156,7 +159,7 @@ ul,ol{
     list-style: none;
 }
 .nav li a{
-    background-color: sienna;
+    background-color: darkslategray;
     color: lightcyan;
     text-decoration: lightsalmon;
     width: 1000px;
