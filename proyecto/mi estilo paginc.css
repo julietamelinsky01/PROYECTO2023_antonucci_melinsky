@@ -1,18 +1,21 @@
-.titulo{
+.titulo {
     height: 20vh;
     text-align: center;
-    font-size: 45px ;
+    font-size: 45px;
     color: lemonchiffon;
-    background-color: cornsilk;"
+    background-color: cornsilk;
+"
 }
-.parrafo{
+
+.parrafo {
     height: 5vh;
     background-color: darkslategray;
     font-family: "Felix Titling", serif;
     font-size: 20px;
     color: lightcyan;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     background-color: rosybrown;
@@ -21,17 +24,19 @@
 }
 
 
-#header{
+#header {
     margin: 0;
     width: fit-content;
     height: 28vh;
     background-color: darkslategray;
 
 }
-ul,ol{
+
+ul, ol {
     list-style: none;
 }
-.nav li a{
+
+.nav li a {
     background-color: darkslategray;
     color: lightcyan;
     text-decoration: lightsalmon;
@@ -41,58 +46,67 @@ ul,ol{
     margin: 0;
     font-size: 18px;
 }
-.nav li a:hover{
+
+.nav li a:hover {
     background-color: gray;
 
 }
-.nav>li{
+
+.nav > li {
     float: left;
 }
-.nav li ul{
-    display:none;
+
+.nav li ul {
+    display: none;
     position: absolute;
     min-width: 140px;
 }
-.makeup2{
-    display: flex;
-    margin: 10px;
-    width: 400px;
-    height: 400px;
-}
-.makeup{
+
+.makeup2 {
     display: flex;
     margin: 10px;
     width: 400px;
     height: 400px;
 }
 
-.elegante{
+.makeup {
+    display: flex;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.elegante {
     display: flex;
     margin: 10px;
     width: 500px;
     height: 500px;
 }
 
-.casual{
+.casual {
     display: flex;
     margin: 10px;
     width: 500px;
     height: 500px;
 
 }
-h1{
+
+h1 {
     font-size: 30px;
     color: seagreen;
 }
-h2{
+
+h2 {
     font-size: 30px;
     color: seagreen;
 }
-h3{
+
+h3 {
     font-size: 30px;
     color: seagreen;
 }
-label{
+
+label {
     justify-content: center;
     padding: 0;
     box-sizing: border-box;
@@ -100,44 +114,52 @@ label{
     -moz-border-bottom-colors: darkorchid;
     font-family: "Felix Titling", serif;
 }
-#campoa{
+
+#campoa {
     width: 300px;
     height: 70px;
     font-size: 25px;
 }
-#campos{
+
+#campos {
     width: 300px;
     height: 70px;
     font-size: 25px;
 }
-#campox{
+
+#campox {
     width: 300px;
     height: 70px;
     font-size: 25px;
 }
-#btn-enviar{
+
+#btn-enviar {
     width: 300px;
     height: 70px;
     font-size: 25px;
 }
-.imgee{
+
+.imgee {
     margin-top: 2%;
 }
 
-#header{
+#header {
     margin: 0;
     width: fit-content;
     height: 28vh;
     background-color: darkslategray;
 
 }
-h1{
+
+h1 {
     color: moccasin;
 }
-ul,ol{
+
+ul, ol {
     list-style: none;
 }
-.nav li a{
+
+.nav li a {
     background-color: darkslategray;
     color: lightcyan;
     text-decoration: lightsalmon;
@@ -145,25 +167,30 @@ ul,ol{
     padding: 10px 15px;
     display: block;
     margin: 0;
-    font-size: 30px;}
+    font-size: 30px;
+}
 
-.imagen123{
+.imagen123 {
     margin-top: 4%;
 }
-#header{
+
+#header {
     margin: 0;
     width: fit-content;
     height: 28vh;
     background-color: darkslategray;
 
 }
-h1{
+
+h1 {
     color: dimgray;
 }
-ul,ol{
+
+ul, ol {
     list-style: none;
 }
-.nav li a{
+
+.nav li a {
     background-color: darkslategray;
     color: lightcyan;
     text-decoration: lightsalmon;
@@ -171,7 +198,9 @@ ul,ol{
     padding: 10px 15px;
     display: block;
     margin: 0;
-    font-size: 30px;}
-.imagen123{
+    font-size: 30px;
+}
+
+.imagen123 {
     margin-top: 4%;
 }
