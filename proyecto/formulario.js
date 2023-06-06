@@ -35,9 +35,9 @@ document.getElementById("calcular-btn").addEventListener("click", function() {
 
     // Determina el costo por persona según el tipo de maquillaje seleccionado
     if (tipoMakeup === "sencillo") {
-        costoPorPersona = 2000;
+        costoPorPersona = 6000;
     } else if (tipoMakeup === "elaborado") {
-        costoPorPersona = 3500;
+        costoPorPersona = 9500;
     }
 
     // Calcula el costo total multiplicando el costo por persona por la cantidad de personas
@@ -78,9 +78,3 @@ function dibujar(event) {
 
 
 }
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> origin/main
