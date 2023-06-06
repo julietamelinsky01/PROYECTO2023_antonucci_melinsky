@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e04f2183-10e6-4861-b545-63d2655f471f" name="Changes" comment="comit12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto/formulario.js" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/formulario.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\WebstormProjects\PROYECTO2023_antonucci_melinsky\proyecto" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\WebstormProjects\PROYECTO2023_antonucci_melinsky\mockup" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -59,7 +66,7 @@
       <workItem from="1686084705993" duration="8000" />
       <workItem from="1686084781993" duration="152000" />
       <workItem from="1686085074350" duration="699000" />
-      <workItem from="1686085803259" duration="2457000" />
+      <workItem from="1686085803259" duration="3661000" />
     </task>
     <task id="LOCAL-00001" summary="comit1">
       <created>1686085398891</created>
@@ -103,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686087946103</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="comit12">
+      <created>1686088309035</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686088309035</updated>
+    </task>
+    <task id="LOCAL-00008" summary="comit12">
+      <created>1686088676996</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686088676996</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
