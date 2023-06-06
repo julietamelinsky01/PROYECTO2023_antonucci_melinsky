@@ -52,16 +52,16 @@ document.getElementById("calcular-btn").addEventListener("click", function() {
     });
 });
 // Declara la variable "bandera"
-var bandera;
+let bandera;
 
 // Función "dibujar" que se ejecuta cuando se produce el evento
 function dibujar(event) {
-    var canvas = document.getElementById("canvasAdibujar");
-    var ctx = canvas.getContext("2d");
+    const canvas = document.getElementById("canvasAdibujar");
+    const ctx = canvas.getContext("2d");
 
     // Obtiene la posición del cursor en el eje X e Y
-    var posX = event.clientX;
-    var posY = event.clientY;
+    const posX = event.clientX;
+    const posY = event.clientY;
     console.log(posX, posY);
 
     // Asigna la función al evento "onmousedown" del canvas
@@ -73,7 +73,6 @@ function dibujar(event) {
     if (bandera) {
         // Dibuja un rectángulo en la posición del cursor en el canvas
         ctx.fillRect(posX, posY, 5, 5);
-        ctx.fill;
     }
 
 

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e04f2183-10e6-4861-b545-63d2655f471f" name="Changes" comment="comit1" />
+    <list default="true" id="e04f2183-10e6-4861-b545-63d2655f471f" name="Changes" comment="comit12">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto/formulario.js" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/formulario.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Usuario/WebstormProjects/PROYECTO2023_antonucci_melinsky",
+    "last_opened_file_path": "C:/Users/Usuario/WebstormProjects/PROYECTO2023_antonucci_melinsky/proyecto",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,7 +59,7 @@
       <workItem from="1686084705993" duration="8000" />
       <workItem from="1686084781993" duration="152000" />
       <workItem from="1686085074350" duration="699000" />
-      <workItem from="1686085803259" duration="1917000" />
+      <workItem from="1686085803259" duration="2457000" />
     </task>
     <task id="LOCAL-00001" summary="comit1">
       <created>1686085398891</created>
@@ -93,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686087560616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="comit12">
+      <created>1686087946103</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686087946103</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comit1" />
-    <option name="LAST_COMMIT_MESSAGE" value="comit1" />
+    <MESSAGE value="comit12" />
+    <option name="LAST_COMMIT_MESSAGE" value="comit12" />
   </component>
 </project>
