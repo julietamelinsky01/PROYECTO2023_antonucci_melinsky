@@ -73,6 +73,7 @@ function dibujar(event) {
     if (bandera) {
         // Dibuja un rectángulo en la posición del cursor en el canvas
         ctx.fillRect(posX, posY, 5, 5);
+        ctx.fill;
     }
 
 
