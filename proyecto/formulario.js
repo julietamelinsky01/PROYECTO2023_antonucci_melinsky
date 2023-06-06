@@ -78,3 +78,9 @@ function dibujar(event) {
 
 
 }
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> origin/main
