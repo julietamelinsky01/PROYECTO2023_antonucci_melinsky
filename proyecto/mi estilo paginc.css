@@ -6,6 +6,9 @@
     background-color: cornsilk;
 "
 }
+*{
+    resize: none;
+}
 
 .parrafo {
     height: 5vh;
