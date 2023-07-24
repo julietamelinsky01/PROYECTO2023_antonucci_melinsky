@@ -26,7 +26,7 @@ function validar() {
 }
 
 // Agrega un evento "click" al elemento con el id "calcular-btn"
-document.getElementById("calcular-btn").addEventListener("click", function() {
+document.getElementById("calcular-btn").addEventListener("click", function () {
     // Obtiene el valor del elemento con el id "tipo-makeup"
     let tipoMakeup = document.getElementById("tipo-makeup").value;
     // Convierte a número entero el valor del elemento con el id "cantidad-personas"
@@ -80,11 +80,14 @@ function dibujar(event) {
         ctx.fill;
     }
 }
-    function borrarCanvas() {
-        const canvas = document.getElementById("canvasAdibujar");
-        const ctx = canvas.getContext("2d");
-        ctx.clearRect(0, 0, canvas.width, canvas.height);
-    }
+
+// Función para borrar el contenido del canvas
+function borrarCanvas() {
+    const canvas = document.getElementById("canvasAdibujar");
+    const ctx = canvas.getContext("2d");
+    // Limpiar el canvas, borrando todo su contenido
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+}
 
 
 

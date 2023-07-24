@@ -204,8 +204,10 @@ ul, ol {
 .imagen123 {
     margin-top: 4%;
 }
-.fijar{
-    margin-top: -135px;}
+
+.fijar {
+    margin-top: -135px;
+}
 
 #canvas {
     border: 1px solid black;

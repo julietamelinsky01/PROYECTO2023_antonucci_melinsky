@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e04f2183-10e6-4861-b545-63d2655f471f" name="Changes" comment="comit12" />
+    <list default="true" id="e04f2183-10e6-4861-b545-63d2655f471f" name="Changes" comment="comit12">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto/formulario.js" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/formulario.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +68,7 @@
       <workItem from="1686084781993" duration="152000" />
       <workItem from="1686085074350" duration="699000" />
       <workItem from="1686085803259" duration="7054000" />
-      <workItem from="1690205812042" duration="1424000" />
+      <workItem from="1690205812042" duration="2131000" />
     </task>
     <task id="LOCAL-00001" summary="comit1">
       <created>1686085398891</created>
@@ -151,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690207231650</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="comit12">
+      <created>1690207543423</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690207543423</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
