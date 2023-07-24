@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="julieta melinsky justina antonuci">
-    <meta name="descripcion" content="web de imiconik pagina de moda">
-    <meta name="palabras-clave" content="moda, makeup, vogue, tips, outfit, inspo, ropa">
+    <meta name="author" content="Julieta Melinsky, Justina Antonuci">
+    <meta name="description" content="Web de Imiconik - Página de moda">
+    <meta name="keywords" content="moda, makeup, vogue, tips, outfit, inspiración, ropa">
     <link rel="stylesheet" href="mi%20estilo%20paginc.css" type="text/css">
-    <title>personificada</title>
+    <title>Personificada</title>
 </head>
 <body>
 <main>
@@ -24,17 +24,17 @@
     <h1>Formulario de Registro</h1> <br>
     <form action="enviado.html" method="post" class="form-register" onsubmit="return validar();">
         <div class="contenedor-inputs">
-            <label for="campox">
-                <input type="text" name="nombre" placeholder="Ingresa tu nombre" id="campox" class="formu_input"
+            <label for="campo-nombre">
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre" id="campo-nombre" class="formu_input"
                        required>
             </label>
-            <label for="campos">
-                <input type="email" name="email" placeholder="Ingresa tu correo" id="campos" class="formu_input"
+            <label for="campo-email">
+                <input type="email" name="email" placeholder="Ingresa tu correo" id="campo-email" class="formu_input"
                        required>
             </label>
-            <label for="campoa">
-                <textarea name="mensaje" placeholder="Ingresa tu mensaje" id="campoa" class="formu_input"
-                          required></textarea>
+            <label for="campo-mensaje">
+                <textarea name="mensaje" placeholder="Ingresa tu mensaje" id="campo-mensaje" class="formu_input"
+                          readonly required></textarea>
             </label>
             <label for="btn-enviar">
                 <input type="submit" name="enviar" value="Enviar mensaje" id="btn-enviar" class="formu_input">
@@ -44,7 +44,7 @@
 
     <h1>Calculadora de Costo de Maquillaje</h1>
     <form>
-        <label for="tipo-makeup">Tipo de Make Up:</label>
+        <label for="tipo-makeup">Tipo de Maquillaje:</label>
         <select id="tipo-makeup">
             <option value="sencillo">Sencillo</option>
             <option value="elaborado">Elaborado</option>
@@ -61,14 +61,15 @@
         <img src="../imagenes/inicio/eb067f49540b175449206bc914350a67.jpg" width="370px" alt="imagen de moda personificada">
         <img src="../imagenes/inicio/0fa3293ecbc7fa7982b3041690682d3f.jpg" width="370px" alt="imagen de moda personificada">
         <img src="../imagenes/inicio/182ae6ddc0dce839ab6747a854e5ae7f--cookie-jars-fashion-design.jpg" width="320px"
-             height="490" alt="imagen de moda personificada">
+             height="490px" alt="imagen de moda personificada">
     </div>
 
     <script src="formulario.js"></script>
-    <h3> dibuja tu vestido soñado </h3>
+    <h3> Dibuja tu vestido soñado </h3>
     <canvas id="canvasAdibujar" class="ejer" onmousemove="dibujar(event)" width="800px" height="600px"></canvas>
     <button onclick="borrarCanvas()">Borrar Canvas</button>
 
 </main>
 </body>
 </html>
+
