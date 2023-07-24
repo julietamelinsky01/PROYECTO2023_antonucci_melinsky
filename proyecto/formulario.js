@@ -65,9 +65,13 @@ function dibujar(event) {
     console.log(posX, posY);
 
     // Asigna la función al evento "onmousedown" del canvas
-    canvas.onmousedown = function () {bandera = true};
+    canvas.onmousedown = function () {
+        bandera = true
+    };
     // Asigna la función al evento "onmouseup" del canvas
-    canvas.onmouseup = function () {bandera = false};
+    canvas.onmouseup = function () {
+        bandera = false
+    };
 
     // Comprueba si la bandera está activada
     if (bandera) {
@@ -75,6 +79,12 @@ function dibujar(event) {
         ctx.fillRect(posX, posY, 5, 5);
         ctx.fill;
     }
-
-
 }
+    function borrarCanvas() {
+        const canvas = document.getElementById("canvasAdibujar");
+        const ctx = canvas.getContext("2d");
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+    }
+
+
+
