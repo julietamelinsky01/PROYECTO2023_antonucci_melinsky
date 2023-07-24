@@ -1,3 +1,8 @@
+/**
+ * Valida que todos los campos del formulario estén completos y cumplan con ciertas restricciones.
+ * @method validar
+ * @return {boolean} Retorna true si la validación es exitosa, de lo contrario, retorna false.
+ */
 function validar() {
     let nombre = document.getElementById('campox').value;
     let correo = document.getElementById('campos').value;
@@ -25,6 +30,10 @@ function validar() {
     return true;
 }
 
+/**
+ * Calcula el costo total del maquillaje en base al tipo de maquillaje seleccionado y la cantidad de personas.
+ * @method calcularCosto
+ */
 function calcularCosto() {
     // Obtiene el valor del elemento con el id "tipo-makeup"
     let tipoMakeup = document.getElementById("tipo-makeup").value;
@@ -59,7 +68,12 @@ function calcularCosto() {
 // Declara la variable "bandera"
 let bandera;
 
-// Función "dibujar" que se ejecuta cuando se produce el evento
+/**
+ * Función que se ejecuta cuando se produce el evento "mousemove" en el canvas.
+ * Dibuja un rectángulo en la posición del cursor en el canvas si la bandera está activada.
+ * @method dibujar
+ * @param {object} event - Evento del mouse que contiene la posición del cursor.
+ */
 function dibujar(event) {
     const canvas = document.getElementById("canvasAdibujar");
     const ctx = canvas.getContext("2d");
@@ -71,28 +85,27 @@ function dibujar(event) {
 
     // Asigna la función al evento "onmousedown" del canvas
     canvas.onmousedown = function () {
-        bandera = true
+        bandera = true;
     };
     // Asigna la función al evento "onmouseup" del canvas
     canvas.onmouseup = function () {
-        bandera = false
+        bandera = false;
     };
 
     // Comprueba si la bandera está activada
     if (bandera) {
         // Dibuja un rectángulo en la posición del cursor en el canvas
         ctx.fillRect(posX, posY, 5, 5);
-        ctx.fill;
     }
 }
 
-// Función para borrar el contenido del canvas
+/**
+ * Borra el contenido del canvas, dejándolo en blanco.
+ * @method borrarCanvas
+ */
 function borrarCanvas() {
     const canvas = document.getElementById("canvasAdibujar");
     const ctx = canvas.getContext("2d");
     // Limpiar el canvas, borrando todo su contenido
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
-
-
-
