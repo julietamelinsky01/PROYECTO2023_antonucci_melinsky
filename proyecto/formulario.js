@@ -25,13 +25,23 @@ function validar() {
     return true;
 }
 
-// Agrega un evento "click" al elemento con el id "calcular-btn"
-document.getElementById("calcular-btn").addEventListener("click", function () {
+function calcularCosto() {
     // Obtiene el valor del elemento con el id "tipo-makeup"
     let tipoMakeup = document.getElementById("tipo-makeup").value;
-    // Convierte a número entero el valor del elemento con el id "cantidad-personas"
-    let personas = parseInt(document.getElementById("cantidad-personas").value);
+    // Obtiene el valor del elemento con el id "cantidad-personas"
+    let cantidadPersonasInput = document.getElementById("cantidad-personas");
+    let personas = parseInt(cantidadPersonasInput.value);
     let costoPorPersona = 0;
+
+    // Comprobar si el valor ingresado en "cantidad-personas" es válido (no negativo)
+    if (personas <= 0) {
+        // Indicar al usuario con un alert que el valor ingresado es incorrecto
+        alert("La cantidad de personas debe ser un número mayor que cero.");
+        // Blanquear el contenido del campo "cantidad-personas"
+        cantidadPersonasInput.value = "";
+        // Salir de la función para evitar el cálculo con un valor incorrecto
+        return;
+    }
 
     // Determina el costo por persona según el tipo de maquillaje seleccionado
     if (tipoMakeup === "sencillo") {
@@ -44,13 +54,8 @@ document.getElementById("calcular-btn").addEventListener("click", function () {
     let costoTotal = costoPorPersona * personas;
     // Actualiza el contenido del elemento con el id "resultado" con el costo total
     document.getElementById("resultado").textContent = "El costo total es: $" + costoTotal;
+}
 
-    // Agrega un nuevo evento "click" al elemento con el id "calcular-btn"
-    // Este evento no realiza ninguna acción, ya que solo obtiene el valor del elemento con el id "tipo-makeup" sin utilizarlo posteriormente
-    document.getElementById("calcular-btn").addEventListener("click", function () {
-        document.getElementById("tipo-makeup").value;
-    });
-});
 // Declara la variable "bandera"
 let bandera;
 
