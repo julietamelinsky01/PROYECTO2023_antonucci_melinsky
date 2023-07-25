@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e04f2183-10e6-4861-b545-63d2655f471f" name="Changes" comment="comit12">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto/casual.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/casual.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto/enviado.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/enviado.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto/makeupelaborado.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/makeupelaborado.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto/makeupsencillo.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/makeupsencillo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto/opciones.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/opciones.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto/personificada.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/personificada.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto/tips.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto/tips.html" afterDir="false" />
-    </list>
+    <list default="true" id="e04f2183-10e6-4861-b545-63d2655f471f" name="Changes" comment="comit12" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +69,7 @@
       <workItem from="1686085074350" duration="699000" />
       <workItem from="1686085803259" duration="7054000" />
       <workItem from="1690205812042" duration="7871000" />
-      <workItem from="1690299837222" duration="2062000" />
+      <workItem from="1690299837222" duration="2394000" />
     </task>
     <task id="LOCAL-00001" summary="comit1">
       <created>1686085398891</created>
@@ -227,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690300638031</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="comit12">
+      <created>1690302032663</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1690302032663</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
